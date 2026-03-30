@@ -11,7 +11,7 @@ const client = new Client({
 });
 
 const MOD_LOG_CHANNEL_ID = process.env.MOD_LOG_CHANNEL_ID; // optional
-
+// custom status
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}`);
     client.user.setPresence({
